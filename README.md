@@ -62,10 +62,6 @@ Example prediction outputs are provided under [`figures/sample_predictions`](fig
 
 ![DeepLabV3+ prediction](figures/sample_predictions/deeplabv3plus_Area1_Image_06_21_triplet.png)
 
-### SegFormer
-
-![SegFormer prediction](figures/sample_predictions/segformer_Area1_Image_06_21_pred_rgb.png)
-
 ### UNet++
 
 ![UNet++ prediction](figures/sample_predictions/unetplusplus_Area1_Image_06_21_triplet.png)
