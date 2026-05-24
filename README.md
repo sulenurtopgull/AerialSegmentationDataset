@@ -2,7 +2,7 @@
 
 ## Dataset Description
 
-This repository presents documentation, experiment scripts, and model results for an aerial semantic segmentation dataset used for land-cover mapping with deep learning models. The raw dataset is not distributed in this repository.
+This repository presents documentation, experiment scripts, and model results for an aerial semantic segmentation dataset used for land-cover mapping with deep learning models.
 
 The dataset is organized into training, validation, and test splits. Each split contains paired `images/` and `masks/` folders. The training set includes 8,383 image-mask pairs, the validation set includes 1,794 image-mask pairs, and the test set includes 1,802 image-mask pairs.
 
@@ -28,11 +28,10 @@ The segmentation labels include the following classes:
 
 The dataset has been evaluated using CNN-based and transformer-based semantic segmentation models:
 
-- **DeepLabV3+** with `segmentation_models_pytorch`
-- **SegFormer** with a transformer encoder-based segmentation pipeline
-- **UNet++** with `segmentation_models_pytorch`
-- **UNetFormer** using the GeoSeg framework
-
+- **DeepLabV3+** 
+- **SegFormer** 
+- **UNet++** 
+- **UNetFormer** 
 ## Metric Results and Weights
 
 The table below summarizes the test-set performance of each model. Metrics are reported as mean Intersection over Union (`mIoU`), mean F1 score (`mF1`), and overall accuracy (`OA`).
@@ -123,6 +122,3 @@ dataset_root/
 
 Training and testing scripts are available in [`scripts`](scripts). Before running a model, update dataset and checkpoint paths inside the relevant PowerShell or Python scripts according to your local environment.
 
-## Citation
-
-If you use this dataset documentation, code, or model results in your research, please cite this repository.
