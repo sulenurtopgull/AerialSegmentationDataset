@@ -51,22 +51,6 @@ Model weights are not tracked directly in this repository because trained checkp
 
 Example prediction outputs are provided under [`figures/sample_predictions`](figures/sample_predictions).
 
-### DeepLabV3+
-
-![DeepLabV3+ prediction](figures/sample_predictions/deeplabv3plus_Area4_Image_050_026_triplet.png)
-
-### SegFormer
-
-![SegFormer prediction](figures/sample_predictions/segformer_Area4_Image_050_026_triplet.png)
-
-### UNet++
-
-![UNet++ prediction](figures/sample_predictions/unetplusplus_Area4_Image_050_026_triplet.png)
-
-### UNetFormer
-
-![UNetFormer prediction](figures/sample_predictions/unetformer_Area4_Image_050_026_triplet.png)
-
 ## Explainable AI Results
 
 Selected XAI visualizations are provided under [`figures/xai`](figures/xai).
