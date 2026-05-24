@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Large model artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+model_weights/
+checkpoints/
+lightning_logs/
+
+# Large datasets
+dataset/
+datasets/
+data/
+train/
+val/
+test/
+*.tif
+*.tiff
+
+# Local reports and temporary files
+~$*
+*.tmp
+*.log

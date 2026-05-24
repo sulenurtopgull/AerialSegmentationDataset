@@ -1,0 +1,9 @@
+python>=3.9
+segmentation-models-pytorch>=0.5.0
+timm>=1.0.0
+torch
+torchvision
+numpy
+pillow
+matplotlib
+tqdm

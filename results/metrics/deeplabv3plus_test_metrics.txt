@@ -1,0 +1,18 @@
+test mIoU: 0.547540
+test mF1: 0.654405
+test OA: 0.878137
+
+per-class metrics:
+background | IoU: 0.992867 | F1: 0.996421
+hazelnut | IoU: 0.883684 | F1: 0.938250
+forest | IoU: 0.804012 | F1: 0.891360
+permanent_cropland | IoU: 0.096395 | F1: 0.175840
+greenhouse | IoU: 0.000000 | F1: 0.000000
+grassland | IoU: 0.286896 | F1: 0.445873
+sparsely_vegetated_areas | IoU: 0.315566 | F1: 0.479742
+arable_land | IoU: 0.629466 | F1: 0.772604
+discontinuous_urban_fabric | IoU: 0.546901 | F1: 0.707092
+road_and_rail_networks | IoU: 0.605877 | F1: 0.754575
+water_courses | IoU: 0.474864 | F1: 0.643943
+water_bodies | IoU: 0.713394 | F1: 0.832726
+wetland | IoU: 0.768101 | F1: 0.868843
