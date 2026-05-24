@@ -28,11 +28,10 @@ The segmentation labels include the following classes:
 
 The dataset has been evaluated using CNN-based and transformer-based semantic segmentation models:
 
-- **DeepLabV3+** with `segmentation_models_pytorch`
-- **SegFormer** with a transformer encoder-based segmentation pipeline
-- **UNet++** with `segmentation_models_pytorch`
-- **UNetFormer** using the GeoSeg framework
-
+- **DeepLabV3+** 
+- **SegFormer** 
+- **UNet++** 
+- **UNetFormer** 
 ## Metric Results and Weights
 
 The table below summarizes the test-set performance of each model. Metrics are reported as mean Intersection over Union (`mIoU`), mean F1 score (`mF1`), and overall accuracy (`OA`).
