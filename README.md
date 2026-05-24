@@ -4,13 +4,7 @@
 
 This repository presents documentation, experiment scripts, and model results for an aerial semantic segmentation dataset used for land-cover mapping with deep learning models. The raw dataset is not distributed in this repository.
 
-The dataset is organized into training, validation, and test splits. Each split contains paired `images/` and `masks/` folders.
-
-| Split | Images | Masks |
-|:-----:|------:|------:|
-| Train | 8,383 | 8,383 |
-| Val | 1,794 | 1,794 |
-| Test | 1,802 | 1,802 |
+The dataset is organized into training, validation, and test splits. Each split contains paired `images/` and `masks/` folders. The training set includes 8,383 image-mask pairs, the validation set includes 1,794 image-mask pairs, and the test set includes 1,802 image-mask pairs.
 
 The segmentation labels include the following classes:
 
