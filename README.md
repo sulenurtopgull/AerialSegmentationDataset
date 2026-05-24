@@ -118,6 +118,3 @@ dataset_root/
 
 Training and testing scripts are available in [`scripts`](scripts). Before running a model, update dataset and checkpoint paths inside the relevant PowerShell or Python scripts according to your local environment.
 
-## Citation
-
-If you use this dataset documentation, code, or model results in your research, please cite this repository.
